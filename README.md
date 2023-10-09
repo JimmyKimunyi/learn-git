@@ -32,4 +32,18 @@ Gives the info of the changes made.
 # git commit
 This describes the changes made and requires you leave a message of the changes made
     git commit -m "web development"
+
+# git push
+This alllows you to push the code in your machine to a remote server e.g github
+
+# Intro to Github
+This is a platform for hosting and collaborating on Git repositories
+
+# git remote
+This enables you to create aremote connection between your local machine and the repo in your remote server.
+
+# branches
+The main branch for a project is called main and is created via :
+    git branch -M main
+    git branch - shows all the branches in the directory
     
