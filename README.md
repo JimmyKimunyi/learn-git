@@ -38,12 +38,24 @@ This alllows you to push the code in your machine to a remote server e.g github
 
 # Intro to Github
 This is a platform for hosting and collaborating on Git repositories
+Create a new repo and copy the ssh path to the repo
 
 # git remote
 This enables you to create aremote connection between your local machine and the repo in your remote server.
+run : 
+    git remote add origin "ssh path to your github repo"
 
 # branches
 The main branch for a project is called main and is created via :
     git branch -M main
     git branch - shows all the branches in the directory
-    
+
+# git push
+To push a project from your local machine to github, run:
+    git push -u origin main
+
+If you already initialized the origin run :
+    git push
+
+# git pull
+This allows you to pull code from github to your local machine
