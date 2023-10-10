@@ -44,9 +44,6 @@ Create a new repo and copy the ssh path to the repo
 This enables you to create aremote connection between your local machine and the repo in your remote server.
 run : 
     git remote add origin "ssh path to your github repo"
-
-# branches
-The main branch for a project is called main and is created via :
     git branch -M main
     git branch - shows all the branches in the directory
 
@@ -59,3 +56,19 @@ If you already initialized the origin run :
 
 # git pull
 This allows you to pull code from github to your local machine
+    git pull
+
+# branches
+A branch represents an independent line of development
+main is the default branch
+commands : 
+    git branch : shows the branch you are in in your local machine
+    git branch -r : shows the branch you are in on github
+    git branch -a : shows all the branches in your local machine and github
+
+To create a new branch run :
+    git branch frontend-react
+
+To switch from one branch to another run :
+    git checkout frontend-react
+    
