@@ -72,3 +72,4 @@ To create a new branch run :
 To switch from one branch to another run :
     git checkout frontend-react
     
+    
